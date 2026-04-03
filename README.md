@@ -1,16 +1,41 @@
-# React + Vite
+# 💰 Modern Financial Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-fidelity, responsive financial management application built with **React**. This project features real-time data visualization, role-based access control (RBAC), and a premium glassmorphic UI designed for seamless personal expense tracking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌟 Key Features
 
-## React Compiler
+- **Multi-View Navigation:** Seamlessly switch between Dashboard, Transactions, and Reports using a sticky glassmorphic Navbar.
+- **Dynamic Dashboard:** Instant overview of Total Balance, Income, and Expenses with animated data cards.
+- **Advanced Reports:** - **Expense by Category:** Visual breakdown of spending habits.
+  - **Balance Trends:** High-fidelity tracking of financial growth over time.
+- **Transaction Engine:** - Real-time search and category-based filtering.
+  - Multi-criteria sorting (Newest/Oldest, Amount High/Low).
+- **Admin Privileges:** Protected actions allowing 'Admins' to add or delete transactions via a centered modal interface.
+- **Modern UI/UX:** Fully responsive design with a high-contrast Dark Mode toggle.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Core:** React.js (Hooks & Functional Components)
+- **Styling:** Tailwind CSS (Utility-first CSS)
+- **State Management:** React Context API for global transaction handling.
+- **Icons & UI:** Custom SVG icons and Lucide-inspired design patterns.
+- **Build Tool:** Vite (for lightning-fast development).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get the project running on your local machine.
+
+### Prerequisites
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/Palak377/Financial-DashBoard.git](https://github.com/Palak377/Financial-DashBoard.git)
+   cd Financial-DashBoard
