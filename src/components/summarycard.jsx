@@ -1,3 +1,5 @@
+
+
 export default function SummaryCard({ title, value }) {
   const isIncome = title.toLowerCase().includes("income");
   const isExpense = title.toLowerCase().includes("expense");
